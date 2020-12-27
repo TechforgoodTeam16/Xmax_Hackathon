@@ -1,9 +1,12 @@
+#基于 https://github.com/ark930/shanghai-bus
 # 上海公交API
 
 ## 运行
 ``` sh
-FLASK_APP=router.py flask run
-```
+更改 bus.py router_name 为查询公交线路
+run bus.py
+返回 公交车牌号池
+n```
 
 ## 接口
 #### 1. 公交线路查询接口
